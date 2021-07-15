@@ -1,0 +1,88 @@
+@media screen and (max-width: 425px) {
+    .receita__page--instrucoes {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-family: Montserrat;
+        line-height: 1.5rem;
+        margin: 3.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cabecalhoPrincipal-nav {
+        margin-bottom: 2rem;
+    }
+
+    .contato {
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer__follow {
+        align-items: center;
+        background: #212222;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__descricao--icone {
+        padding: 2rem;
+    }
+
+    .dicas__imagem {
+        display: none;
+    }
+
+    .mapa_conteudo {
+        margin-left: 0;
+    }
+
+    .mapa__conteudo {
+        display: none
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contato {
+        flex-direction: column;
+    }
+
+    .mapa {
+        border-left: none;
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 3560px) {
+    .container {
+        align-items: center;
+        background: #FFF;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+
+    .cabecalhoPrincipal-nav {
+        padding-bottom: 0;
+    }
+
+    .footer__follow {
+        align-items: center;
+        background: #212222;
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,236 @@
+.dicas {
+    color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dica {
+    background: #fdfdfd;
+    width: 295px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+}
+
+.dica:hover {
+    opacity: 0.5;
+    transition: all 0.5s linear;
+}
+
+
+.dica__imagem {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 10rem;
+}
+
+.dica__titulo {
+    color: #574d4d;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 .5rem;
+}
+
+.dica__descricao {
+    color: #574d4d;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 2rem;
+    text-align: center;
+}
+
+.dicas__layout {
+   margin: 5rem;
+}
+
+.dicas__imagem {
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 500px;
+}
+
+/* Dicas - Page */
+
+.dicas__page--descricao {
+    font-family: Dancing Script;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    color: #574d4d;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 2rem;;
+}
+
+.dicas__page--texto {
+    font-family: Montserrat;
+    line-height: 1.5rem;
+}
+
+.dicas__mao--titulo {
+    align-items: center;
+    background: url(../img/lavandoamao.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__fritura--titulo {
+    align-items: center;
+    background: url(../img/batatafrita.jpeg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__finalizar--titulo {
+    align-items: center;
+    background: url(../img/massa-de-bolo\ \(1\).jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__cenoura--titulo {
+    align-items: center;
+    background: url(../img/bolodecenoura.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__peixe--titulo {
+    align-items: center;
+    background: url(../img/como-dessalgar-bacalhau-1.webp) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__bife--titulo {
+    align-items: center;
+    background: url(../img/bife-acebolado.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__vegetais--titulo {
+    align-items: center;
+    background: url(../img/Alimentos-vegetais.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__carne--titulo {
+    align-items: center;
+    background: url(../img/boi-da-villa-15639805035d3872d79e88f.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__tapioca--titulo {
+    align-items: center;
+    background: url(../img/tapitapi.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.dicas__cortar--titulo {
+    align-items: center;
+    background: url(../img/como-cortar-picanha-1-730x455.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}

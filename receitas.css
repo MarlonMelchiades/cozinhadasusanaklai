@@ -1,0 +1,423 @@
+.receitas {
+    color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.receita {
+    background: #fdfdfd;
+    width: 295px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+}
+
+.receita:hover {
+    opacity: 0.5;
+    transition: all 0.5s linear;
+}
+
+.receita__imagem {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 10rem;
+}
+
+.receita__titulo {
+    color: #574d4d;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 .5rem;
+}
+
+.receita__descricao {
+    color: #574d4d;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Receitas - Page */
+
+.receita__page--descricao {
+    color: #574d4d;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 2.2rem;
+    font-weight: 900;
+    justify-content: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.receita__layout {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 5rem 2rem 5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.receita__page--ingredientes {
+    font-family: Montserrat;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.receita__page--texto {
+    font-family: Montserrat;
+    line-height: 1.5rem;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.receita__page--instrucoes {
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat;
+    line-height: 1.5rem;
+    margin: 3.5rem;
+}
+
+.receita__salada--titulo {
+    align-items: center;
+    background: url(../img/salada-de-verao.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__abacaxi--titulo {
+    align-items: center;
+    background: url(../img/19_13_05_65_pav_de_abacaxi.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__empadinha--titulo {
+    align-items: center;
+    background: url(../img//Empada-com-massa-podre\ \(1\).jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__panqueca--titulo {
+    align-items: center;
+    background: url(../img/panquecacarne.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__pao--titulo {
+    align-items: center;
+    background: url(../img/paoDeLiquidificador.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__bolinho--titulo {
+    align-items: center;
+    background: url(../img/bolinhodearr.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__gelado--titulo {
+    align-items: center;
+    background: url(../img/geladoAbacaxi.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__mousse--titulo {
+    align-items: center;
+    background: url(../img/receita-de-mousse-de-limao-facil-10.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__mariaMole--titulo {
+    align-items: center;
+    background: url(../img/pudim-de-maria-mole.jpeg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__boloPudim--titulo {
+    align-items: center;
+    background: url(../img/bolopudim.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__pudimCoco--titulo {
+    align-items: center;
+    background: url(../img/pudim\ de\ coco.webp) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__boloCenoura--titulo {
+    align-items: center;
+    background: url(../img/bolodecenoura.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__bombom--titulo {
+    align-items: center;
+    background: url(../img/bombom.webp) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__fuba--titulo {
+    align-items: center;
+    background: url(../img/bolo-de-fuba.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__formiga--titulo {
+    align-items: center;
+    background: url(../img/boloformiga.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__floresta--titulo {
+    align-items: center;
+    background: url(../img/bolo-floresta-negra-1200x900.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__batata--titulo {
+    align-items: center;
+    background: url(../img/pao-de-batata.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__trufa--titulo {
+    align-items: center;
+    background: url(../img/receitas-de-trufa-de-maracuja-3.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__banana--titulo {
+    align-items: center;
+    background: url(../img/torta-de-banana.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__chuva--titulo {
+    align-items: center;
+    background: url(../img/bolinhodechuva.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__macarrao--titulo {
+    align-items: center;
+    background: url(../img/macarrone.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.receita__rocambole--titulo {
+    align-items: center;
+    background: url(../img/rocambole.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}

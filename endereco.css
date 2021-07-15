@@ -1,0 +1,45 @@
+.mapa{
+    display: flex;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+
+.endereco {
+    color: #574d4d;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.endereco__descricao {
+    color: #574d4d;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin: 1 2rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.endereco__descricao-numero {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .endereco__descricao-numero {
+        border-right: 1px solid #000;
+        padding: 0 10rem;   
+    }
+}
+
+.mapa__conteudo {
+    padding: 2rem 0 2rem 8rem;
+}

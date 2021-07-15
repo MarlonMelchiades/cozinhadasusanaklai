@@ -1,0 +1,44 @@
+body {
+    background: #eeece8;
+}
+
+html {
+    scroll-behavior: smooth;
+ }
+
+.banner__titulo {
+    align-items: center;
+    background: url(./cooking.jpg) center / cover no-repeat;
+    color: #fdfdfd;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 5rem;
+    height: 70vh;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: #000 4px -5px 4px;
+}
+
+.sobre__titulo {
+    color: #574d4d;
+    display: flex;
+    font-family: Dancing Script;
+    font-size: 3rem;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.sobre__descricao {
+    color: #574d4d;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin: 1 2rem;
+    text-align: center;
+    padding: 0 2rem;
+}
