@@ -1,2 +1,2 @@
 # cozinhadasusanaklai
-Project developed in html, css and pure js.
+Projeto desenvolvido em HTML, CSS e JS, com foco em CSS!
